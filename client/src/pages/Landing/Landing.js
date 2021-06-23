@@ -1,5 +1,8 @@
 import React from "react";
 import "./Landing.css";
+import hero from "../images/hero.jpg";
+import logoWhite from "../images/logo-white.svg";
+import logoColor from "../images/logo-color.svg";
 
 export default function Landing() {
   return (
