@@ -1,0 +1,33 @@
+.landing-background {
+  background-image: url("../../images/hero.jpg");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.landing-logo {
+  width: 15%;
+}
+
+.first-line-landing-text {
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  font-weight: 900;
+}
+
+.second-line-landing-text {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.landing-button-position {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.landing-button {
+  background-color: blueviolet;
+  color: white;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Landing.css";
-// import hero from "../images/hero.jpg";
 import logoWhite from "../../images/logoWhite.svg";
 // import logoColor from "../images/logo-color.svg";
 import { Container, Row, Col } from "react-bootstrap";
@@ -11,22 +10,22 @@ export default function Landing() {
       <Container>
         <Row>
           <Col>
-            <img src={logoWhite} />
+            <img className="landing-logo" src={logoWhite} />
           </Col>
         </Row>
         <Row>
           <Col>
-            <h1>WELCOME TO</h1>
+            <h1 className="first-line-landing-text">WELCOME TO</h1>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h1>Rooster Grin</h1>
+            <h1 className="second-line-landing-text">Rooster Grin</h1>
           </Col>
         </Row>
         <Row>
-          <Col>
-            <button>Button Button</button>
+          <Col className="landing-button-position">
+            <button className="landing-button">BUTTON BUTTON</button>
           </Col>
         </Row>
       </Container>
