@@ -5,6 +5,9 @@ import logoWhite from "../../images/logoWhite.svg";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Landing() {
+  function handleClick() {
+    console.log("Click!");
+  }
   return (
     <div className="landing-background">
       <Container>
@@ -25,7 +28,9 @@ export default function Landing() {
         </Row>
         <Row>
           <Col className="landing-button-position">
-            <button className="landing-button">BUTTON BUTTON</button>
+            <button className="landing-button" onClick={handleClick}>
+              BUTTON BUTTON
+            </button>
           </Col>
         </Row>
       </Container>
