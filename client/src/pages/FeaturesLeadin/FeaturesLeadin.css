@@ -1,18 +1,17 @@
-.featuresleading-background {
+.featuresleadin-background {
   background-image: url("../../images/banner1.jpg");
   background-size: cover;
   min-width: 100%;
   min-height: 100vh;
 }
 
-.featuresleading-title {
-  padding-top: 15%;
-  padding-left: 30%;
+.featuresleadin-title {
+  padding-top: 25%;
   color: purple;
   font-weight: 600;
 }
 
-.featuresleading-button {
-  background-color: blueviolet;
+.featuresleadin-button {
+  background-color: orange;
   color: white;
 }

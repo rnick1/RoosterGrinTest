@@ -1,0 +1,14 @@
+.features-left {
+  min-width: 50vw;
+  min-height: 100vh;
+}
+
+.features-right {
+  min-width: 50vw;
+}
+
+.features-title {
+  padding-top: 15%;
+  padding-left: 30%;
+  font-weight: 600;
+}

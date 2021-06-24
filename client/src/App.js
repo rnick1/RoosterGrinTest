@@ -3,7 +3,7 @@ import "./App.css";
 import Landing from "./pages/Landing/Landing.js";
 import About from "./pages/About/About.js";
 import FeaturesLeadin from "./pages/FeaturesLeadin/FeaturesLeadin.js";
-import Feature from "./pages/Features.js";
+import Features from "./pages/Features/Features.js";
 import TestimonialLeadin from "./pages/TestimonialLeadin.js";
 import Testimonial from "./pages/Testimonial.js";
 import { HashRouter, Route } from "react-router-dom";
@@ -15,7 +15,7 @@ export default function App() {
         <Route exact path="/" component={Landing} />
         <Route exact path="/about" component={About} />
         <Route exact path="/featuresleadin" component={FeaturesLeadin} />
-        <Route exact path="/features" component={Feature} />
+        <Route exact path="/features" component={Features} />
         <Route exact path="/testimonialleadin" component={TestimonialLeadin} />
         <Route exact path="/testimonial" component={Testimonial} />
       </div>
