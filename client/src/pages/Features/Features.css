@@ -5,10 +5,41 @@
 
 .features-right {
   min-width: 50vw;
+  background-color: whitesmoke;
 }
 
 .features-title {
   padding-top: 15%;
   padding-left: 30%;
+  padding-right: 5%;
   font-weight: 600;
+}
+
+.features-text {
+  padding-left: 30%;
+  padding-right: 5%;
+}
+
+.features-link {
+  padding-left: 30%;
+  color: purple;
+  font-weight: 400;
+}
+
+.features-img {
+  height: 120px;
+  width: 120px;
+  margin: auto;
+  margin-top: 25%;
+}
+
+.features-img-title {
+  text-align: center;
+  margin-bottom: 25%;
+  font-weight: 750;
+}
+
+.features-cards {
+  border: none;
+  background-color: transparent;
 }
