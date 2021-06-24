@@ -1,0 +1,13 @@
+.about-background {
+  background-size: cover;
+}
+.about-title {
+  padding-top: 10%;
+  padding-left: 30%;
+  /* text-align: center; */
+}
+
+.about-text {
+  padding-left: 30%;
+  padding-right: 5%;
+}

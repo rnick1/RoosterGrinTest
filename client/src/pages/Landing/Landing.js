@@ -1,12 +1,12 @@
 import React from "react";
 import "./Landing.css";
 import logoWhite from "../../images/logoWhite.svg";
-// import logoColor from "../images/logo-color.svg";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Landing() {
   function handleClick() {
     console.log("Click!");
+    // document.location.replace("/profile/" + userId);
   }
   return (
     <div className="landing-background">
