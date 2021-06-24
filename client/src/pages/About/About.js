@@ -18,7 +18,9 @@ export default function About() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum."
           </p>
-          <a className="about-link">`{">"}` Lorem Ipsum</a>
+          <a className="about-link" href="#featuresleadin">
+            `{">"}` Lorem Ipsum
+          </a>
         </Col>
         <Col className="about-right">
           <img className="about-img" src={img1} />

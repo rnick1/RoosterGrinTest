@@ -4,10 +4,6 @@ import logoWhite from "../../images/logoWhite.svg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 export default function Landing() {
-  function handleClick() {
-    console.log("Click!");
-    document.location.replace("/about");
-  }
   return (
     <div className="landing-background">
       <Container>
