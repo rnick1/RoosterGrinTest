@@ -12,7 +12,7 @@ export default function App() {
   return (
     <HashRouter>
       <div>
-        <Route exact path="/landing" component={Landing} />
+        <Route exact path="/" component={Landing} />
         <Route exact path="/about" component={About} />
         <Route exact path="/featureleadin" component={FeatureLeadin} />
         <Route exact path="/features" component={Feature} />

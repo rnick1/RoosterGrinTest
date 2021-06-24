@@ -5,10 +5,10 @@ import img1 from "../../images/img1.jpg";
 
 export default function About() {
   return (
-    <div className="about-background">
+    <div>
       <Row>
-        <Col>
-          <h1 className="about-title">Lorem Ipsum</h1>
+        <Col className="about-left">
+          <h1 className="about-title">LOREM IPSUM</h1>
           <p className="about-text">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -18,9 +18,10 @@ export default function About() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum."
           </p>
+          <a className="about-link">`{">"}` Lorem Ipsum</a>
         </Col>
-        <Col>
-          <img src={img1} />
+        <Col className="about-right">
+          <img className="about-img" src={img1} />
         </Col>
       </Row>
     </div>

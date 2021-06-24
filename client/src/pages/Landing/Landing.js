@@ -1,12 +1,12 @@
 import React from "react";
 import "./Landing.css";
 import logoWhite from "../../images/logoWhite.svg";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 export default function Landing() {
   function handleClick() {
     console.log("Click!");
-    // document.location.replace("/profile/" + userId);
+    document.location.replace("/about");
   }
   return (
     <div className="landing-background">
@@ -28,9 +28,9 @@ export default function Landing() {
         </Row>
         <Row>
           <Col className="landing-button-position">
-            <button className="landing-button" onClick={handleClick}>
+            <Button className="landing-button" href="#about">
               BUTTON BUTTON
-            </button>
+            </Button>
           </Col>
         </Row>
       </Container>
