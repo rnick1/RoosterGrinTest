@@ -1,0 +1,15 @@
+.carousel {
+  background-color: gray;
+  width: 90%;
+  min-height: 90vh;
+}
+
+.carousel-name {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.carousel-text {
+  padding-left: 35%;
+  padding-right: 35%;
+}
