@@ -6,11 +6,15 @@ import homeHygiene from "../../images/homeHygiene.svg";
 import homeLab from "../../images/homeLab.svg";
 import homeRetention from "../../images/homeRetention.svg";
 import styled, { keyframes } from "styled-components";
-import { tada } from "react-animations";
+import { rotateInDownLeft, rotateInDownRight } from "react-animations";
 import next from "../../images/next.png";
 
-const Tada = styled.div`
-  animation: 3s ${keyframes`${tada}`} infinite;
+const RotateInDownLeft = styled.div`
+  animation: 3s ${keyframes`${rotateInDownLeft}`} infinite;
+`;
+
+const RotateInDownRight = styled.div`
+  animation: 3s ${keyframes`${rotateInDownRight}`} infinite;
 `;
 
 export default function Features() {
@@ -33,15 +37,15 @@ export default function Features() {
         <Col className="features-right">
           <CardDeck>
             <Card className="features-cards">
-              <Tada>
+              <RotateInDownLeft>
                 <Card.Img className="features-img" src={homeExpertise} />
-              </Tada>
+              </RotateInDownLeft>
               <Card.Title className="features-img-title">LOREM</Card.Title>
             </Card>
             <Card className="features-cards">
-              <Tada>
+              <RotateInDownRight>
                 <Card.Img className="features-img" src={homeHygiene} />
-              </Tada>
+              </RotateInDownRight>
               <Card.Title className="features-img-title">
                 LOREM IPSUM
               </Card.Title>
@@ -49,15 +53,15 @@ export default function Features() {
           </CardDeck>
           <CardDeck>
             <Card className="features-cards">
-              <Tada>
+              <RotateInDownLeft>
                 <Card.Img className="features-img" src={homeLab} />
-              </Tada>
+              </RotateInDownLeft>
               <Card.Title className="features-img-title">LOREM</Card.Title>
             </Card>
             <Card className="features-cards">
-              <Tada>
+              <RotateInDownRight>
                 <Card.Img className="features-img" src={homeRetention} />
-              </Tada>
+              </RotateInDownRight>
               <Card.Title className="features-img-title">
                 LOREM IPSUM
               </Card.Title>
