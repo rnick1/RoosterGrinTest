@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import { Container, Row, Col } from "react-bootstrap";
 import img1 from "../../images/img1.jpg";
+import next from "../../images/next.png";
 
 export default function About() {
   return (
@@ -18,8 +19,9 @@ export default function About() {
             pariatur."
           </p>
           <a className="about-link" href="#featuresleadin">
-            `{">"}` Lorem Ipsum
+            Lorem Ipsum -
           </a>
+          <img src={next} className="about-next" />
         </Col>
         <Col className="about-right">
           <img className="about-img" src={img1} />
