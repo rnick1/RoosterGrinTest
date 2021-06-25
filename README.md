@@ -1,29 +1,29 @@
-# Create React Express App
+# Rooster Grin Marketing Site
 
-## About This Boilerplate
+This site is designed for submission to the Rooster Grin Front-end Developer Test. This site is designed to demonstrate key skills used in front-end applications including mobile responsiveness, animation, and orderly coding practices.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Usage:
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
-
-## Starting the app locally
-
-Start by installing front and backend dependencies. While in this directory, run the following command:
+To run locally, clone the repo, then run:
 
 ```
 npm install
 ```
 
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
+This will install the dependencies needed to run the app locally. When that is complete you can run the command:
 
 ```
 npm start
 ```
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+Your app should now be running on <http://localhost:3000>.
 
-## Deployment (Heroku)
+### Notes:
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+Future versions of this code will be deployed on heroku and the link will be provided.
+
+## Assignment Notes:
+
+1. Technology: I chose React.js because my familiarity with the library would make it easier to develop the project within the time frame established by the client. I used react-bootstrap to help with styling as it is very reliable and easy to manipulate.
+2. Challenges: The biggest challenge with this project was to not get overinvolved with the project...I had so much fun putting it together that I found it hard to pull away! On the technical side I REALLY enjoyed hunting for just the right dependencies to accomplish a few of the features, but it was also a challenge-there are a LOT of potential tools out there and many of them do a fantastic job!
+3. Noteworthy: The most enjoyable part of this project was keeping the code organized and modularized.
