@@ -2,6 +2,8 @@ import React from "react";
 import "./Testimonials.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
+import Footer from "../../components/Footer/Footer";
+import starIcon from "../../images/starIcon.png";
 
 export default function Testimonials() {
   return (
@@ -9,6 +11,11 @@ export default function Testimonials() {
       <Row>
         <Col>
           <h1 className="testimonials-title">LOREM IPSUM DOLOR SIT AMET</h1>
+          <img className="testimonials-stars" src={starIcon} />
+          <img src={starIcon} />
+          <img src={starIcon} />
+          <img src={starIcon} />
+          <img src={starIcon} />
         </Col>
         <Col>
           <Carousel className="carousel">
@@ -51,6 +58,7 @@ export default function Testimonials() {
           </Carousel>
         </Col>
       </Row>
+      <Footer />
     </Container>
   );
 }
