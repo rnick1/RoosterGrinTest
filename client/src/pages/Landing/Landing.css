@@ -28,6 +28,11 @@
 }
 
 .landing-button {
-  background-color: blueviolet;
+  background-color: #e1701a;
   color: white;
+  border: none;
+}
+
+.landing-button:hover {
+  background-color: #f7a440;
 }

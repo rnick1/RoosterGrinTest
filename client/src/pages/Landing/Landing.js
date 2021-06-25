@@ -27,7 +27,7 @@ export default function Landing() {
           <Row>
             <Col className="landing-button-position">
               <Button className="landing-button" href="#about">
-                BUTTON BUTTON
+                About Us
               </Button>
             </Col>
           </Row>
