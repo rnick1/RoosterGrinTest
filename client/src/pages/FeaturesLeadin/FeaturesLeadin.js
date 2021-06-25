@@ -8,7 +8,7 @@ export default function FeaturesLeadin() {
       <Container>
         <h1 className="featuresleadin-title">LOREM IPSUM</h1>
         <Button className="featuresleadin-button" href="#features">
-          BUTTON BUTTON
+          FEATURES
         </Button>
       </Container>
     </div>
