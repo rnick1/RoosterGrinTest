@@ -5,6 +5,12 @@ import homeExpertise from "../../images/homeExpertise.svg";
 import homeHygiene from "../../images/homeHygiene.svg";
 import homeLab from "../../images/homeLab.svg";
 import homeRetention from "../../images/homeRetention.svg";
+import styled, { keyframes } from "styled-components";
+import { tada } from "react-animations";
+
+const Tada = styled.div`
+  animation: 3s ${keyframes`${tada}`} infinite;
+`;
 
 export default function Features() {
   return (
@@ -25,11 +31,15 @@ export default function Features() {
         <Col className="features-right">
           <CardDeck>
             <Card className="features-cards">
-              <Card.Img className="features-img" src={homeExpertise} />
+              <Tada>
+                <Card.Img className="features-img" src={homeExpertise} />
+              </Tada>
               <Card.Title className="features-img-title">LOREM</Card.Title>
             </Card>
             <Card className="features-cards">
-              <Card.Img className="features-img" src={homeHygiene} />
+              <Tada>
+                <Card.Img className="features-img" src={homeHygiene} />
+              </Tada>
               <Card.Title className="features-img-title">
                 LOREM IPSUM
               </Card.Title>
@@ -37,11 +47,15 @@ export default function Features() {
           </CardDeck>
           <CardDeck>
             <Card className="features-cards">
-              <Card.Img className="features-img" src={homeLab} />
+              <Tada>
+                <Card.Img className="features-img" src={homeLab} />
+              </Tada>
               <Card.Title className="features-img-title">LOREM</Card.Title>
             </Card>
             <Card className="features-cards">
-              <Card.Img className="features-img" src={homeRetention} />
+              <Tada>
+                <Card.Img className="features-img" src={homeRetention} />
+              </Tada>
               <Card.Title className="features-img-title">
                 LOREM IPSUM
               </Card.Title>
