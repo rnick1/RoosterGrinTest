@@ -7,6 +7,7 @@ import homeLab from "../../images/homeLab.svg";
 import homeRetention from "../../images/homeRetention.svg";
 import styled, { keyframes } from "styled-components";
 import { tada } from "react-animations";
+import next from "../../images/next.png";
 
 const Tada = styled.div`
   animation: 3s ${keyframes`${tada}`} infinite;
@@ -25,8 +26,9 @@ export default function Features() {
             aliquip ex ea commodo consequat."
           </p>
           <a className="features-link" href="#testimonialsleadin">
-            `{">"}` Lorem Ipsum
+            Lorem Ipsum -
           </a>
+          <img src={next} className="about-next" />
         </Col>
         <Col className="features-right">
           <CardDeck>
