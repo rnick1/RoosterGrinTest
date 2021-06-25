@@ -14,7 +14,7 @@ export default function TestimonialsLeadin() {
           aliquip ex ea commodo consequat."
         </p>
         <Button className="testimonialsleadin-button" href="#testimonials">
-          BUTTON BUTTON
+          TESTIMONIALS
         </Button>
       </Container>
     </div>

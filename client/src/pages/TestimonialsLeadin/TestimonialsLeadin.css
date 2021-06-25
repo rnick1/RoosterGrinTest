@@ -18,7 +18,12 @@
 }
 
 .testimonialsleadin-button {
-  background-color: orange;
+  background-color: #ec820a;
   color: white;
+  border: none;
   margin-left: 75%;
+}
+
+.testimonialsleadin-button:hover {
+  background-color: #ec823a;
 }
