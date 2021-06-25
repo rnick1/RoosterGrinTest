@@ -1,2 +1,24 @@
-.testimonialsleading-background {
+.testimonialsleadin-background {
+  background-image: url("../../images/banner2.jpg");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.testimonialsleadin-title {
+  padding-top: 25%;
+  text-align: right;
+  color: purple;
+  font-weight: 600;
+}
+
+.testimonialsleadin-text {
+  margin-left: 75%;
+  width: 25%;
+}
+
+.testimonialsleadin-button {
+  background-color: orange;
+  color: white;
+  margin-left: 75%;
 }

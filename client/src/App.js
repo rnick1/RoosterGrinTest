@@ -21,7 +21,7 @@ export default function App() {
           path="/testimonialsleadin"
           component={TestimonialsLeadin}
         />
-        <Route exact path="/testimonials" component={Testimonials} />
+        {/* <Route exact path="/testimonials" component={Testimonials} /> */}
       </div>
     </HashRouter>
   );
