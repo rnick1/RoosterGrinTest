@@ -50,10 +50,15 @@
   background-color: transparent;
 }
 
+@media only screen and (max-width: 1230px) {
+  .services-left {
+    background-position: 70% 0%;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .services-left {
     min-width: 100vw;
-    min-height: 100vh;
     background-color: whitesmoke;
     background-position: 70% 0%;
   }

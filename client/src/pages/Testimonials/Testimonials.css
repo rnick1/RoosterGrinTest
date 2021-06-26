@@ -1,7 +1,5 @@
 .testimonials-background {
-  background-size: cover;
   min-width: 100%;
-  min-height: 100vh;
 }
 
 .testimonials-left {
@@ -27,19 +25,14 @@
 @media only screen and (max-width: 920px) {
   .testimonials-left {
     min-width: 100vw;
-    min-height: 100vh;
     background-color: whitesmoke;
+    background-position: 70% 0%;
   }
 
   .testimonials-title {
     padding-top: 10%;
     padding-left: 5%;
     width: 45%;
-    font-weight: 600;
-  }
-
-  .testimonials-left {
-    background-position: 70% 0%;
   }
 }
 
@@ -59,7 +52,6 @@
 @media only screen and (max-width: 440px) {
   .testimonials-title {
     padding-top: 2%;
-    font-size: x-large;
     width: 50%;
   }
 

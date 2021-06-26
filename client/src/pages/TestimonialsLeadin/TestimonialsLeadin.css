@@ -6,15 +6,10 @@
 }
 
 .testimonialsleadin-title {
-  padding-top: 25%;
-  margin-left: 70%;
+  padding-top: 15%;
+  padding-left: 70%;
   color: purple;
   font-weight: 600;
-}
-
-.testimonialsleadin-text {
-  margin-left: 70%;
-  width: 30%;
 }
 
 .testimonialsleadin-button {
@@ -30,42 +25,32 @@
 
 @media only screen and (max-width: 1000px) {
   .testimonialsleadin-background {
-    background-image: url("../../images/banner2.jpg");
-    background-size: cover;
     background-position: 45% 0%;
-    min-width: 100%;
-    min-height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .testimonialsleadin-title {
+    padding-left: 50%;
+  }
+  .testimonialsleadin-button {
+    margin-left: 50%;
   }
 }
 
 @media only screen and (max-width: 550px) {
   .testimonialsleadin-background {
-    background-image: url("../../images/banner2.jpg");
-    background-size: cover;
     background-position: 30% 0%;
-    min-width: 100%;
-    min-height: 100vh;
-  }
-  .testimonialsleadin-title {
-    padding-top: 5%;
-    margin-left: 1%;
-    color: purple;
-    font-weight: 600;
   }
 
-  .testimonialsleadin-text {
-    margin-top: 85%;
-    margin-left: 8%;
-    width: 90%;
-    text-align: center;
+  .testimonialsleadin-title {
+    padding-top: 85%;
+    padding-left: 8%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
   }
 
   .testimonialsleadin-button {
-    background-color: #ec820a;
-    color: white;
-    border: none;
-    margin-left: 20%;
+    margin-left: 8%;
+    margin-bottom: 1%;
   }
 }

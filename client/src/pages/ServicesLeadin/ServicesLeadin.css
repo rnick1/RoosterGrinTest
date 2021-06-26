@@ -28,28 +28,15 @@
   .servicesleadin-title {
     padding-top: 2%;
     text-align: center;
-    color: purple;
-    font-weight: 600;
   }
 
   .servicesleadin-button {
-    margin-left: 40%;
-    background-color: #ec820a;
-    color: white;
-    border: none;
-  }
-
-  .servicesleadin-button:hover {
-    background-color: #ec823a;
+    margin-left: 41%;
   }
 }
 
 @media only screen and (max-width: 570px) {
   .servicesleadin-background {
-    background-image: url("../../images/banner1.jpg");
-    background-size: cover;
     background-position: 70% 0%;
-    min-width: 100%;
-    min-height: 100vh;
   }
 }

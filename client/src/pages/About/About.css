@@ -5,16 +5,11 @@
   font-weight: 600;
 }
 
-.about-text {
-  padding-left: 30%;
-  padding-right: 5%;
-}
-
 .about-img {
   background-image: url("../../images/img1.jpg");
+  background-size: cover;
+  min-width: 50%;
   min-height: 100vh;
-  min-width: 100%;
-  height: auto;
 }
 
 .about-left {
@@ -41,14 +36,6 @@
     padding-top: 0;
     padding-right: 1%;
     color: #ec823a;
-    font-weight: 600;
-  }
-
-  .about-text {
-    padding-left: 1%;
-    width: 260px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.4);
   }
 
   .about-link {
@@ -63,7 +50,6 @@
   .about-left {
     background-image: url("../../images/img1.jpg");
     min-width: 100vw;
-    min-height: 100vh;
     z-index: 2;
     text-align: left;
     padding-right: 10%;

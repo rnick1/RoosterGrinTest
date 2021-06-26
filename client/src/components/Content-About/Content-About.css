@@ -2,3 +2,12 @@
   padding-left: 30%;
   padding-right: 5%;
 }
+
+@media only screen and (max-width: 750px) {
+  .about-text {
+    padding-left: 1%;
+    width: 260px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
