@@ -9,7 +9,7 @@ export default function Testimonials() {
   return (
     <Container className="testimonials-background">
       <Row>
-        <Col>
+        <Col className="testimonials-left">
           <h1 className="testimonials-title">LOREM IPSUM DOLOR SIT AMET</h1>
           <img className="testimonials-stars" src={starIcon} />
           <img src={starIcon} />
@@ -17,7 +17,7 @@ export default function Testimonials() {
           <img src={starIcon} />
           <img src={starIcon} />
         </Col>
-        <Col>
+        <Col className="testimonials-right">
           <Carousel className="carousel">
             <Carousel.Item>
               <h3 className="carousel-name">John Doe 08/08/20</h3>
@@ -27,8 +27,7 @@ export default function Testimonials() {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
+                nulla pariatur."
               </p>
             </Carousel.Item>
             <Carousel.Item>
@@ -37,10 +36,7 @@ export default function Testimonials() {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
+                nisi ut aliquip ex ea commodo consequat."
               </p>
             </Carousel.Item>
             <Carousel.Item>
@@ -51,8 +47,7 @@ export default function Testimonials() {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
+                nulla pariatur."
               </p>
             </Carousel.Item>
           </Carousel>
