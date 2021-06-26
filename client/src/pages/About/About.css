@@ -48,11 +48,11 @@
     padding-left: 1%;
     width: 260px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
   }
 
   .about-link {
-    margin-left: 1%;
+    margin-left: 0;
     color: #ec823a;
     font-weight: 800;
   }
@@ -67,6 +67,9 @@
     z-index: 2;
     text-align: left;
     padding-right: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55% 0%;
   }
   .about-img {
     display: none;
