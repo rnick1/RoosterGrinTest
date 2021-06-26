@@ -17,8 +17,8 @@ export default function About() {
             from other companies in the industry. Sites built by Rooster Grin
             give companies a major leg up in any competitive business landscape.
           </p>
-          <a className="about-link" href="#featuresleadin">
-            Lorem Ipsum -
+          <a className="about-link" href="#servicesleadin">
+            Next -
           </a>
           <img src={next} className="about-next" />
         </Col>

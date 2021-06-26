@@ -1,5 +1,5 @@
 import React from "react";
-import "./Features.css";
+import "./Services.css";
 import { Col, CardDeck, Card, Row } from "react-bootstrap";
 import homeExpertise from "../../images/homeExpertise.svg";
 import homeHygiene from "../../images/homeHygiene.svg";
@@ -17,52 +17,52 @@ const RotateInDownRight = styled.div`
   animation: 3s ${keyframes`${rotateInDownRight}`} infinite;
 `;
 
-export default function Features() {
+export default function Services() {
   return (
     <div>
       <Row>
-        <Col className="features-left">
-          <h1 className="features-title">LOREM IPSUM DOLOR SIT AMET</h1>
-          <p className="features-text">
+        <Col className="services-left">
+          <h1 className="services-title">LOREM IPSUM DOLOR SIT AMET</h1>
+          <p className="services-text">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat."
           </p>
-          <a className="features-link" href="#testimonialsleadin">
+          <a className="services-link" href="#testimonialsleadin">
             Lorem Ipsum -
           </a>
           <img src={next} className="about-next" />
         </Col>
-        <Col className="features-right">
+        <Col className="services-right">
           <CardDeck>
-            <Card className="features-cards">
+            <Card className="services-cards">
               <RotateInDownLeft>
-                <Card.Img className="features-img" src={homeExpertise} />
+                <Card.Img className="services-img" src={homeExpertise} />
               </RotateInDownLeft>
-              <Card.Title className="features-img-title">LOREM</Card.Title>
+              <Card.Title className="services-img-title">LOREM</Card.Title>
             </Card>
-            <Card className="features-cards">
+            <Card className="services-cards">
               <RotateInDownRight>
-                <Card.Img className="features-img" src={homeHygiene} />
+                <Card.Img className="services-img" src={homeHygiene} />
               </RotateInDownRight>
-              <Card.Title className="features-img-title">
+              <Card.Title className="services-img-title">
                 LOREM IPSUM
               </Card.Title>
             </Card>
           </CardDeck>
           <CardDeck>
-            <Card className="features-cards">
+            <Card className="services-cards">
               <RotateInDownLeft>
-                <Card.Img className="features-img" src={homeLab} />
+                <Card.Img className="services-img" src={homeLab} />
               </RotateInDownLeft>
-              <Card.Title className="features-img-title">LOREM</Card.Title>
+              <Card.Title className="services-img-title">LOREM</Card.Title>
             </Card>
-            <Card className="features-cards">
+            <Card className="services-cards">
               <RotateInDownRight>
-                <Card.Img className="features-img" src={homeRetention} />
+                <Card.Img className="services-img" src={homeRetention} />
               </RotateInDownRight>
-              <Card.Title className="features-img-title">
+              <Card.Title className="services-img-title">
                 LOREM IPSUM
               </Card.Title>
             </Card>

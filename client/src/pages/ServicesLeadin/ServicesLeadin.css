@@ -1,4 +1,4 @@
-.featuresleadin-background {
+.servicesleadin-background {
   background-image: url("../../images/banner1.jpg");
   background-size: cover;
   background-position: center;
@@ -6,44 +6,44 @@
   min-height: 100vh;
 }
 
-.featuresleadin-title {
+.servicesleadin-title {
   padding-top: 25%;
   color: purple;
   font-weight: 600;
 }
 
-.featuresleadin-button {
+.servicesleadin-button {
   background-color: #ec820a;
   color: white;
   border: none;
 }
 
-.featuresleadin-button:hover {
+.servicesleadin-button:hover {
   background-color: #ec823a;
 }
 
 @media only screen and (max-width: 1130px) {
-  .featuresleadin-title {
+  .servicesleadin-title {
     padding-top: 2%;
     text-align: center;
     color: purple;
     font-weight: 600;
   }
 
-  .featuresleadin-button {
+  .servicesleadin-button {
     margin-left: 40%;
     background-color: #ec820a;
     color: white;
     border: none;
   }
 
-  .featuresleadin-button:hover {
+  .servicesleadin-button:hover {
     background-color: #ec823a;
   }
 }
 
 @media only screen and (max-width: 570px) {
-  .featuresleadin-background {
+  .servicesleadin-background {
     background-image: url("../../images/banner1.jpg");
     background-size: cover;
     background-position: 70% 0%;
