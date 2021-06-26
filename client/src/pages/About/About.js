@@ -9,14 +9,13 @@ export default function About() {
     <Container className="about-container" fluid={true}>
       <Row>
         <Col className="about-left">
-          <h1 className="about-title">LOREM IPSUM</h1>
+          <h1 className="about-title">ABOUT US:</h1>
           <p className="about-text">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur."
+            Rooster Grin Media is a web design company that specializes in
+            crafting custom websites at an affordable rate. Our photo- and
+            video-centric approach to creating websites is what sets us apart
+            from other companies in the industry. Sites built by Rooster Grin
+            give companies a major leg up in any competitive business landscape.
           </p>
           <a className="about-link" href="#featuresleadin">
             Lorem Ipsum -
