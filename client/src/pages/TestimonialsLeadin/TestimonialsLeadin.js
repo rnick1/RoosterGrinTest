@@ -6,12 +6,12 @@ export default function TestimonialsLeadin() {
   return (
     <div className="testimonialsleadin-background">
       <Container>
-        <h1 className="testimonialsleadin-title">LOREM IPSUM</h1>
+        <h1 className="testimonialsleadin-title">Testimonials</h1>
         <p className="testimonialsleadin-text">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat."
+          We work hard for our customers. Running a business is never easy, so
+          we strive to ensure our products meet expectations and become an
+          effective force-multiplier for each company we are priviledged to work
+          with.
         </p>
         <Button className="testimonialsleadin-button" href="#testimonials">
           TESTIMONIALS

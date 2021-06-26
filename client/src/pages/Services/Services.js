@@ -22,15 +22,14 @@ export default function Services() {
     <div>
       <Row>
         <Col className="services-left">
-          <h1 className="services-title">LOREM IPSUM DOLOR SIT AMET</h1>
+          <h1 className="services-title">Here are our website services!</h1>
           <p className="services-text">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
+            Whether you want to build a new site from scratch or just looking at
+            your options for Search Engine Optimization we have the skill and
+            experience to ensure that your company has a strong web presence.
           </p>
           <a className="services-link" href="#testimonialsleadin">
-            Lorem Ipsum -
+            Next -
           </a>
           <img src={next} className="about-next" />
         </Col>
@@ -40,14 +39,16 @@ export default function Services() {
               <RotateInDownLeft>
                 <Card.Img className="services-img" src={homeExpertise} />
               </RotateInDownLeft>
-              <Card.Title className="services-img-title">LOREM</Card.Title>
+              <Card.Title className="services-img-title">
+                Web Design and Development
+              </Card.Title>
             </Card>
             <Card className="services-cards">
               <RotateInDownRight>
                 <Card.Img className="services-img" src={homeHygiene} />
               </RotateInDownRight>
               <Card.Title className="services-img-title">
-                LOREM IPSUM
+                Health History Forms
               </Card.Title>
             </Card>
           </CardDeck>
@@ -56,14 +57,16 @@ export default function Services() {
               <RotateInDownLeft>
                 <Card.Img className="services-img" src={homeLab} />
               </RotateInDownLeft>
-              <Card.Title className="services-img-title">LOREM</Card.Title>
+              <Card.Title className="services-img-title">
+                Search Engine Optimization
+              </Card.Title>
             </Card>
             <Card className="services-cards">
               <RotateInDownRight>
                 <Card.Img className="services-img" src={homeRetention} />
               </RotateInDownRight>
               <Card.Title className="services-img-title">
-                LOREM IPSUM
+                Web Hosting
               </Card.Title>
             </Card>
           </CardDeck>

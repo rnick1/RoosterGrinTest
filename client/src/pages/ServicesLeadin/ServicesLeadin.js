@@ -6,7 +6,7 @@ export default function ServicesLeadin() {
   return (
     <div className="servicesleadin-background">
       <Container>
-        <h1 className="servicesleadin-title">LOREM IPSUM</h1>
+        <h1 className="servicesleadin-title">Here's what we do!</h1>
         <Button className="servicesleadin-button" href="#services">
           SERVICES
         </Button>
