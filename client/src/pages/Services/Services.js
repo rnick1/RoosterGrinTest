@@ -6,12 +6,20 @@ import homeHygiene from "../../images/homeHygiene.svg";
 import homeLab from "../../images/homeLab.svg";
 import homeRetention from "../../images/homeRetention.svg";
 import styled, { keyframes } from "styled-components";
-import { rotateInDownLeft, rotateInDownRight } from "react-animations";
+import {
+  rotateInDownLeft,
+  rotateInDownRight,
+  rubberBand,
+} from "react-animations";
 import next from "../../images/next.png";
 import ContentServices from "../../components/Content-Services/Content-Services";
 
 const RotateInDownLeft = styled.div`
   animation: 3s ${keyframes`${rotateInDownLeft}`} infinite;
+`;
+
+const RubberBand = styled.div`
+  animation: 3s ${keyframes`${rubberBand}`} infinite;
 `;
 
 const RotateInDownRight = styled.div`
@@ -43,9 +51,9 @@ export default function Services() {
               </Card.Title>
             </Card>
             <Card className="services-cards">
-              <RotateInDownRight>
+              <RubberBand>
                 <Card.Img className="services-img" src={homeHygiene} />
-              </RotateInDownRight>
+              </RubberBand>
               <Card.Title className="services-img-title">
                 Health History Forms
               </Card.Title>
@@ -53,9 +61,9 @@ export default function Services() {
           </CardDeck>
           <CardDeck>
             <Card className="services-cards">
-              <RotateInDownLeft>
+              <RubberBand>
                 <Card.Img className="services-img" src={homeLab} />
-              </RotateInDownLeft>
+              </RubberBand>
               <Card.Title className="services-img-title">
                 Search Engine Optimization
               </Card.Title>
