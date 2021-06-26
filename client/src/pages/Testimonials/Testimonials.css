@@ -4,6 +4,13 @@
   min-height: 100vh;
 }
 
+.testimonials-left {
+  background-image: url("../../images/testimonial.jpg");
+  background-size: cover;
+  min-width: 50%;
+  min-height: 100vh;
+}
+
 .testimonials-title {
   padding-top: 30%;
   padding-left: 35%;
@@ -40,14 +47,18 @@
   }
 
   .testimonials-title {
-    padding-top: 30%;
-    padding-left: 35%;
-    width: 85%;
+    padding-top: 10%;
+    padding-left: 5%;
+    width: 45%;
     font-weight: 600;
   }
 
   .testimonials-stars {
-    padding-left: 32%;
+    padding-left: 5%;
+  }
+
+  .testimonials-left {
+    background-position: 70% 0%;
   }
 }
 
@@ -66,10 +77,12 @@
 
 @media only screen and (max-width: 440px) {
   .testimonials-title {
-    font-size: large;
+    padding-top: 2%;
+    font-size: x-large;
+    width: 50%;
   }
   .testimonials-stars {
-    padding-left: 20%;
+    padding-left: 0%;
   }
   .carousel-name {
     padding-left: 10%;
@@ -81,8 +94,8 @@
 
 @media only screen and (max-width: 337px) {
   .testimonials-title {
-    padding-left: 25%;
-    font-size: large;
+    padding-top: 85%;
+    padding-left: 2%;
   }
   .testimonials-stars {
     padding-left: 15%;
