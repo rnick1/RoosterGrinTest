@@ -24,10 +24,6 @@
   min-height: 90vh;
 }
 
-.testimonials-stars {
-  padding-left: 32%;
-}
-
 @media only screen and (max-width: 920px) {
   .testimonials-left {
     min-width: 100vw;
@@ -40,10 +36,6 @@
     padding-left: 5%;
     width: 45%;
     font-weight: 600;
-  }
-
-  .testimonials-stars {
-    padding-left: 5%;
   }
 
   .testimonials-left {
@@ -70,9 +62,7 @@
     font-size: x-large;
     width: 50%;
   }
-  .testimonials-stars {
-    padding-left: 0%;
-  }
+
   .carousel-name {
     padding-left: 10%;
   }
@@ -86,9 +76,7 @@
     padding-top: 85%;
     padding-left: 2%;
   }
-  .testimonials-stars {
-    padding-left: 15%;
-  }
+
   .carousel-name {
     padding-left: 5%;
   }

@@ -1,0 +1,21 @@
+.testimonials-stars {
+  padding-left: 32%;
+}
+
+@media only screen and (max-width: 920px) {
+  .testimonials-stars {
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .testimonials-stars {
+    padding-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 337px) {
+  .testimonials-stars {
+    padding-left: 15%;
+  }
+}

@@ -3,10 +3,10 @@ import "./Testimonials.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import Footer from "../../components/Footer/Footer";
-import starIcon from "../../images/starIcon.png";
 import Testimonial1 from "../../components/Content-Testimonials/Testimonial1/Testimonial1";
 import Testimonial2 from "../../components/Content-Testimonials/Testimonial2/Testimonial2";
 import Testimonial3 from "../../components/Content-Testimonials/Testimonial3/Testimonial3";
+import Stars from "../../components/Stars/Stars";
 
 export default function Testimonials() {
   return (
@@ -16,11 +16,7 @@ export default function Testimonials() {
           <h1 className="testimonials-title">
             What our customers are saying...
           </h1>
-          <img className="testimonials-stars" src={starIcon} />
-          <img src={starIcon} />
-          <img src={starIcon} />
-          <img src={starIcon} />
-          <img src={starIcon} />
+          <Stars />
         </Col>
         <Col className="testimonials-right">
           <Carousel className="carousel">
