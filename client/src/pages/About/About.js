@@ -18,7 +18,7 @@ export default function About() {
             give companies a major leg up in any competitive business landscape.
           </p>
           <a className="about-link" href="#servicesleadin">
-            Next -
+            Next
           </a>
           <img src={next} className="about-next" />
         </Col>

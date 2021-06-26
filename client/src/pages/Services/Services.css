@@ -1,4 +1,6 @@
 .services-left {
+  background-image: url("../../images/satisfied.jpg");
+  background-size: cover;
   min-width: 50vw;
   min-height: 100vh;
 }
@@ -8,22 +10,30 @@
   background-color: whitesmoke;
 }
 
+.services-left-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 5%;
+  margin-right: 40%;
+}
+
 .services-title {
-  padding-top: 15%;
-  padding-left: 30%;
-  padding-right: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 30%;
   font-weight: 600;
-  color: purple;
+  color: white;
 }
 
 .services-text {
-  padding-left: 30%;
-  padding-right: 5%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 30%;
+  color: white;
 }
 
 .services-link {
-  padding-left: 30%;
-  color: purple;
+  padding-left: 5%;
+  color: white;
   font-weight: 400;
 }
 
@@ -43,7 +53,6 @@
 }
 
 .services-cards {
-  /* height: 10%; */
   border: none;
   background-color: transparent;
 }
@@ -53,9 +62,17 @@
     min-width: 100vw;
     min-height: 100vh;
     background-color: whitesmoke;
+    background-position: 70% 0%;
   }
   .services-right {
     min-width: 100vw;
     background-color: white;
+  }
+
+  .services-left-content {
+    width: 70%;
+  }
+  .services-img-title {
+    width: 70%;
   }
 }
