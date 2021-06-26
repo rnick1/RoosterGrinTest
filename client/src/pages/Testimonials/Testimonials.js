@@ -4,6 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import Footer from "../../components/Footer/Footer";
 import starIcon from "../../images/starIcon.png";
+import Testimonial1 from "../../components/Content-Testimonials/Testimonial1/Testimonial1";
+import Testimonial2 from "../../components/Content-Testimonials/Testimonial2/Testimonial2";
+import Testimonial3 from "../../components/Content-Testimonials/Testimonial3/Testimonial3";
 
 export default function Testimonials() {
   return (
@@ -22,25 +25,13 @@ export default function Testimonials() {
         <Col className="testimonials-right">
           <Carousel className="carousel">
             <Carousel.Item>
-              <h3 className="carousel-name">John 08/08/20</h3>
-              <p className="carousel-text">
-                I am so pleased with the work of Rooster Grin. After having them
-                revamp the website for my used-book business I have experienced
-                a 50% increase in traffic on my site.
-              </p>
+              <Testimonial1 />
             </Carousel.Item>
             <Carousel.Item>
-              <h3 className="carousel-name">Josephine 09/13/19</h3>
-              <p className="carousel-text">
-                I never thought that having a website would make such a big
-                difference on the success of a baby sitting service, but after
-                Rooster Grin Media created my site, I can't imagine life without
-                it!
-              </p>
+              <Testimonial2 />
             </Carousel.Item>
             <Carousel.Item>
-              <h3 className="carousel-name">Jose 04/05/21</h3>
-              <p className="carousel-text">Rooster Grin is gold. Period.</p>
+              <Testimonial3 />
             </Carousel.Item>
           </Carousel>
         </Col>
