@@ -1,7 +1,7 @@
 .services-left {
   background-image: url("../../images/satisfied.jpg");
   background-size: cover;
-  min-width: 50vw;
+  max-width: 50vw;
   min-height: 100vh;
 }
 
@@ -13,7 +13,7 @@
 .services-left-content {
   background-color: rgba(0, 0, 0, 0.4);
   margin-left: 5%;
-  margin-right: 40%;
+  margin-right: 47%;
 }
 
 .services-title {

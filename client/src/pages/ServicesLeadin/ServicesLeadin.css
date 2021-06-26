@@ -7,12 +7,14 @@
 }
 
 .servicesleadin-title {
-  padding-top: 25%;
+  padding-top: 15%;
+  padding-left: 15%;
   color: purple;
   font-weight: 600;
 }
 
 .servicesleadin-button {
+  margin-left: 15%;
   background-color: #ec820a;
   color: white;
   border: none;

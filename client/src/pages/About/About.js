@@ -5,6 +5,7 @@ import img1 from "../../images/img1.jpg";
 import next from "../../images/next.png";
 import ContentAbout from "../../components/Content-About/Content-About";
 
+// I hope there is no objection to me replacing the Lorem Ipsum with actual content!
 export default function About() {
   return (
     <Container className="about-container" fluid={true}>

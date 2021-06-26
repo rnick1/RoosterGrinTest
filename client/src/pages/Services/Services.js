@@ -1,34 +1,32 @@
 import React from "react";
 import "./Services.css";
-import { Col, CardDeck, Card, Row } from "react-bootstrap";
+import { Col, CardDeck, Card, Row, Container } from "react-bootstrap";
 import homeExpertise from "../../images/homeExpertise.svg";
 import homeHygiene from "../../images/homeHygiene.svg";
 import homeLab from "../../images/homeLab.svg";
 import homeRetention from "../../images/homeRetention.svg";
 import styled, { keyframes } from "styled-components";
-import {
-  rotateInDownLeft,
-  rotateInDownRight,
-  rubberBand,
-} from "react-animations";
+import { bounce, headShake, rubberBand } from "react-animations";
 import next from "../../images/next.png";
 import ContentServices from "../../components/Content-Services/Content-Services";
 
-const RotateInDownLeft = styled.div`
-  animation: 3s ${keyframes`${rotateInDownLeft}`} infinite;
+// Here I played with a bunch of different animation options and settled with react-animations because of it's ease of use and the huge number of options. I also took the liberty of adding an open source stock image to the background which I felt matched the tone of the webpage.
+
+const Bounce = styled.div`
+  animation: 3s ${keyframes`${bounce}`} 1;
 `;
 
 const RubberBand = styled.div`
-  animation: 3s ${keyframes`${rubberBand}`} infinite;
+  animation: 3s ${keyframes`${rubberBand}`} 1;
 `;
 
-const RotateInDownRight = styled.div`
-  animation: 3s ${keyframes`${rotateInDownRight}`} infinite;
+const HeadShake = styled.div`
+  animation: 3s ${keyframes`${headShake}`} 1;
 `;
 
 export default function Services() {
   return (
-    <div>
+    <Container fluid={true}>
       <Row>
         <Col className="services-left">
           <div className="services-left-content">
@@ -43,9 +41,9 @@ export default function Services() {
         <Col className="services-right">
           <CardDeck>
             <Card className="services-cards">
-              <RotateInDownLeft>
+              <Bounce>
                 <Card.Img className="services-img" src={homeExpertise} />
-              </RotateInDownLeft>
+              </Bounce>
               <Card.Title className="services-img-title">
                 Web Design and Development
               </Card.Title>
@@ -69,9 +67,9 @@ export default function Services() {
               </Card.Title>
             </Card>
             <Card className="services-cards">
-              <RotateInDownRight>
+              <HeadShake>
                 <Card.Img className="services-img" src={homeRetention} />
-              </RotateInDownRight>
+              </HeadShake>
               <Card.Title className="services-img-title">
                 Web Hosting
               </Card.Title>
@@ -79,6 +77,6 @@ export default function Services() {
           </CardDeck>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 }

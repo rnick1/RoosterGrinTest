@@ -5,14 +5,12 @@ import ContentTestimonialsLeadin from "../../components/Content-TestimonialsLead
 
 export default function TestimonialsLeadin() {
   return (
-    <div className="testimonialsleadin-background">
-      <Container>
-        <h1 className="testimonialsleadin-title">Testimonials</h1>
-        <ContentTestimonialsLeadin />
-        <Button className="testimonialsleadin-button" href="#testimonials">
-          TESTIMONIALS
-        </Button>
-      </Container>
-    </div>
+    <Container className="testimonialsleadin-background">
+      <h1 className="testimonialsleadin-title">Testimonials</h1>
+      <ContentTestimonialsLeadin />
+      <Button className="testimonialsleadin-button" href="#testimonials">
+        TESTIMONIALS
+      </Button>
+    </Container>
   );
 }
